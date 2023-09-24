@@ -1,0 +1,74 @@
+let arr = [{
+    "id": 1,
+    "first_name": "Lissy",
+    "last_name": "Merck",
+    "email": "lmerck0@slideshare.net",
+    "gender": "Genderqueer",
+    "ip_address": "31.254.5.51"
+}, {
+    "id": 2,
+    "first_name": "Gigi",
+    "last_name": "Quickenden",
+    "email": "gquickenden1@qq.com",
+    "gender": "Female",
+    "ip_address": "109.99.245.177"
+}, {
+    "id": 3,
+    "first_name": "Eveline",
+    "last_name": "Gerok",
+    "email": "egerok2@si.edu",
+    "gender": "Female",
+    "ip_address": "235.118.70.115"
+}, {
+    "id": 4,
+    "first_name": "Frieda",
+    "last_name": "Panner",
+    "email": "fpanner3@dropbox.com",
+    "gender": "Female",
+    "ip_address": "71.198.246.111"
+}, {
+    "id": 5,
+    "first_name": "Estrellita",
+    "last_name": "Mitton",
+    "email": "emitton4@dagondesign.com",
+    "gender": "Female",
+    "ip_address": "221.70.189.54"
+}, {
+    "id": 6,
+    "first_name": "Carleton",
+    "last_name": "Cubbit",
+    "email": "ccubbit5@buzzfeed.com",
+    "gender": "Male",
+    "ip_address": "39.15.72.42"
+}, {
+    "id": 7,
+    "first_name": "Donn",
+    "last_name": "Kenford",
+    "email": "dkenford6@phoca.cz",
+    "gender": "Male",
+    "ip_address": "112.13.176.227"
+}, {
+    "id": 8,
+    "first_name": "Bryn",
+    "last_name": "Lindstedt",
+    "email": "blindstedt7@mac.com",
+    "gender": "Female",
+    "ip_address": "167.232.103.191"
+}, {
+    "id": 9,
+    "first_name": "Mariellen",
+    "last_name": "Baggiani",
+    "email": "mbaggiani8@sogou.com",
+    "gender": "Female",
+    "ip_address": "248.118.147.15"
+}, {
+    "id": 10,
+    "first_name": "Leonelle",
+    "last_name": "Bridel",
+    "email": "lbridel9@ovh.net",
+    "gender": "Female",
+    "ip_address": "222.153.72.111"
+}];
+
+
+module.exports ={ arr}

@@ -1,0 +1,14 @@
+{
+  "name": "node_totorial",
+  "version": "1.0.0",
+  "description": "complete node js tutorial for begginers.",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "author": "mayurmalaviya1997",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
