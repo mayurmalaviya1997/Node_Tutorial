@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table EJS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>table</h1>
+    <table border="1px" class="u_table">
+        <thead>
+            <th>Id </th>
+            <th>First Name</th>
+            <th>Email</th>
+            <th>Gender</th>
+            <th>IP Address</th>
+        </thead>
+        <%- include('./table-body.ejs',) %>
+    </table>
+</body>
+
+</html>

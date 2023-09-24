@@ -1,0 +1,17 @@
+.red{
+    color: red;
+    
+}
+
+.u_table{
+    width: 100%;
+}
+
+.u_table tr{
+    color: gray;
+    text-align: center;
+}
+
+.u_table > td{
+
+}

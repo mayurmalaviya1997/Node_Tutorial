@@ -80,4 +80,20 @@
 		],
 		"description": "error callback"
 	},
+	"app import": {
+		"scope": "javascript",
+		"prefix": ["app"],
+		"body": [
+			"const app = express();\n$1"
+		],
+		"description": "app import"
+	},
+	"clear console": {
+		"scope": "javascript",
+		"prefix": ["clr"],
+		"body": [
+			"console.clear('============= clear ===============')"
+		],
+		"description": "clear console"
+	}
 }

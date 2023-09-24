@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="red">this is page made with ejs template engine</h1>
+    <h4> <%= data[0].first_name %> </h4>
+    <ul>
+        <% data.forEach( item => { %>
+            <li> <%= item.first_name %></li>
+        <%}) %>
+    </ul>
+</body>
+</html>

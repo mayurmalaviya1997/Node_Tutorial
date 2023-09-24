@@ -1,0 +1,75 @@
+
+
+const data = [{
+    "id": 1,
+    "first_name": "Odell",
+    "last_name": "O'Cleary",
+    "email": "oocleary0@paypal.com",
+    "gender": "Male",
+    "ip_address": "112.48.128.0"
+}, {
+    "id": 2,
+    "first_name": "Carson",
+    "last_name": "Kalkofen",
+    "email": "ckalkofen1@devhub.com",
+    "gender": "Male",
+    "ip_address": "236.139.64.94"
+}, {
+    "id": 3,
+    "first_name": "Marcellina",
+    "last_name": "Boshers",
+    "email": "mboshers2@nyu.edu",
+    "gender": "Female",
+    "ip_address": "137.136.61.153"
+}, {
+    "id": 4,
+    "first_name": "Belicia",
+    "last_name": "Wingham",
+    "email": "bwingham3@weebly.com",
+    "gender": "Female",
+    "ip_address": "188.163.197.65"
+}, {
+    "id": 5,
+    "first_name": "Drugi",
+    "last_name": "Pennycord",
+    "email": "dpennycord4@webs.com",
+    "gender": "Male",
+    "ip_address": "95.218.184.222"
+}, {
+    "id": 6,
+    "first_name": "Agosto",
+    "last_name": "Wauchope",
+    "email": "awauchope5@princeton.edu",
+    "gender": "Male",
+    "ip_address": "169.214.187.180"
+}, {
+    "id": 7,
+    "first_name": "Nariko",
+    "last_name": "Hunting",
+    "email": "nhunting6@ning.com",
+    "gender": "Female",
+    "ip_address": "96.26.252.56"
+}, {
+    "id": 8,
+    "first_name": "Issiah",
+    "last_name": "Skull",
+    "email": "iskull7@independent.co.uk",
+    "gender": "Male",
+    "ip_address": "94.207.165.163"
+}, {
+    "id": 9,
+    "first_name": "Siana",
+    "last_name": "Trenchard",
+    "email": "strenchard8@opera.com",
+    "gender": "Female",
+    "ip_address": "69.51.107.79"
+}, {
+    "id": 10,
+    "first_name": "Dynah",
+    "last_name": "Wimlett",
+    "email": "dwimlett9@g.co",
+    "gender": "Female",
+    "ip_address": "39.85.161.69"
+}]
+
+module.exports = data;
