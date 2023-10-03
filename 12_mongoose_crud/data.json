@@ -1,0 +1,62 @@
+[
+    {
+        "first_name": "Kirsteni",
+        "last_name": "Newson",
+        "email": "knewson0@gnu.org",
+        "gender": "Female"
+    },
+    {
+        "first_name": "Harlen",
+        "last_name": "Earey",
+        "email": "hearey1@ycombinator.com",
+        "gender": "Male"
+    },
+    {
+        "first_name": "Ev",
+        "last_name": "Trevallion",
+        "email": "etrevallion2@studiopress.com",
+        "gender": "Male"
+    },
+    {
+        "first_name": "Waylon",
+        "last_name": "Yezafovich",
+        "email": "wyezafovich3@noaa.gov",
+        "gender": "Male"
+    },
+    {
+        "first_name": "Gustavus",
+        "last_name": "Gallienne",
+        "email": "ggallienne4@jigsy.com",
+        "gender": "Male"
+    },
+    {
+        "first_name": "Brett",
+        "last_name": "Shearn",
+        "email": "bshearn5@skyrock.com",
+        "gender": "Male"
+    },
+    {
+        "first_name": "Drew",
+        "last_name": "Coonan",
+        "email": "dcoonan6@nyu.edu",
+        "gender": "Male"
+    },
+    {
+        "first_name": "Angie",
+        "last_name": "Ballingal",
+        "email": "aballingal7@flickr.com",
+        "gender": "Female"
+    },
+    {
+        "first_name": "Sammie",
+        "last_name": "Pendred",
+        "email": "spendred8@google.nl",
+        "gender": "Male"
+    },
+    {
+        "first_name": "Hilliary",
+        "last_name": "Jeschner",
+        "email": "hjeschner9@ovh.net",
+        "gender": "Bigender"
+    }
+]

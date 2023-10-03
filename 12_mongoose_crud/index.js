@@ -1,37 +1,38 @@
-const mongoose = require("mongoose")
-mongoose.connect("mongodb://127.0.0.1:27017/mobile");
+const express = require('express');
+const app = express();
+require('./db_connect.js');
+const chatMembers = require('./chat-schema.js');
+app.use(express.json());
 
-const androidSchema = new mongoose.Schema({
-    name:{type:String},
-    model:{type:String},
-    price:{type:Number},
+app.post("/add-member", async (req, res) => {
+    if (req.body) {
+        const data = await chatMembers.insertMany(Array.isArray(req.body) ? req.body : [req.body])
+        res.send(data);
+    }
 })
 
-const saveData =async ()=>{
-    const mobileModel = mongoose.model('androids',androidSchema);
-    const data = new mobileModel({name:"vivo T2", model:"T2", price:1000});
-    console.log(`====>> data`,data);
-    const result = await data.save();
-    console.log(`====>> `,result)
-}
-// saveData();
+app.delete("/delete-member/:_id", async (req, res) => {
+    if (!req.params) {
+        return res.send("Error !!!")
+    }
+    let data = await chatMembers.deleteOne(req.params)
+    res.send(data)
+})
 
-const updateData= async ()=>{
-    const mobileModel = mongoose.model('androids', androidSchema);
-    const data = await mobileModel.updateOne(
-        {model:"T2"},
+app.put('/update/:_id',async (req,res)=>{
+    const data = await chatMembers.updateOne(
+        req.params,
         {
-            $set:{model:"T2 updated"}
+            $set:req.body
         }
-    );
-        console.log(`====>> `,data)
-};
-// updateData();
+    )
+    res.send(data)
+})
 
-const deleteData = async ()=>{
-    const mobileModel = mongoose.model('androids',androidSchema );
-    const data = await mobileModel.deleteOne({name:"vivo T2"});
-    console.log(`====>> `,data)
+app.listen(5001, () => {
+    console.log(`====>> server is running `,)
 }
-// deleteData()
+)
+
+
 
