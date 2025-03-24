@@ -17,20 +17,11 @@
 	// }
 	"Print to console": {
 		"scope": "javascript,typescript",
-		"prefix": ["ll","log","llg"],
+		"prefix": ["ll","log"],
 		"body": [
 			"console.log(`====>> $1`,$2)"
 		],
 		"description": "Log output to console"
-	},
-	
-	"Comment": {
-		"scope": "javascript,typescript",
-		"prefix": ["cm","ccm"],
-		"body": [
-			"/* #$1 */"
-		],
-		"description": "Add Comment"
 	},
 	"Comment small": {
 		"scope": "javascript,typescript",
@@ -42,7 +33,7 @@
 	},
 	"node require": {
 		"scope": "javascript",
-		"prefix": ["rr"],
+		"prefix": ["req"],
 		"body": [
 			"const $1 = require('./$2  .js')"
 		],
@@ -50,7 +41,7 @@
 	},
 	"file import": {
 		"scope": "javascript",
-		"prefix": ["ff"],
+		"prefix": ["fim"],
 		"body": [
 			"require('./$1 .js');"
 		],
