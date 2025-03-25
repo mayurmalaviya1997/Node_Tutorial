@@ -12,7 +12,6 @@ const data = fs.writeFileSync(`${__dirname}/data-1.txt`, "This is first file ope
 console.log('Sync File done...');
 
 //async..
-
 fs.writeFile(`${__dirname}/data-2.txt`, `This is async file`, (err, data) => {
   if (err) {
     throw err
@@ -46,7 +45,6 @@ fs.appendFile(`${__dirname}/append.txt`, `\n append data `, (error, data) => {
 })
 
 // delete file
-
 fs.unlink(`${__dirname}/data-1.txt`, (error, data) => {
   if (error) {
     throw error
@@ -54,4 +52,41 @@ fs.unlink(`${__dirname}/data-1.txt`, (error, data) => {
     console.log(`File deleted ..`, data)
   }
 })
+
+/*-> Directories */
+// //create  directory
+// const pathdir = `${__dirname}/user-info/child/peta`
+// fs.mkdir(pathdir, { recursive: true }, (error, data) => {
+//   try {
+//     if (error) {
+//       throw error;
+//     } else {
+//       console.log("DIRECTORY CREATED !")
+//     }
+//   } catch (error) {
+//     console.log('===>>>', error)
+//   }
+// })
+
+// //Read dir content
+// fs.readdir(`${__dirname}`, { recursive: true }, (error, data) => {
+//   if (error) {
+//     console.log(`Error in reading directory`, error)
+//   } else {
+//     console.log("DIRECTORY ::", data)
+//   }
+// });
+
+// check directory exist or not ?
+let isExist = fs.existsSync(`${__dirname}/user-info-child`);
+console.log(`====>> isExist`, isExist);
+
+// fs.rm(`${__dirname}/user-info`, { force: true, recursive: true }, (error, msg) => {
+//   if (error) {
+//     console.log("Error in deleting directory", error)
+//   } else {
+//     console.log("Directory deleted!!!")
+//   }
+// });
+
 
